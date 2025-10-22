@@ -50,7 +50,7 @@ const Home = () => {
           data-aos-easing="ease-in-back"
           data-aos-delay="100"
         >
-          <h1>Kenapa Pilih Kerupukin?</h1>
+          <h1>Kenapa Pilih Kerupukin? turu</h1>
         </div>
         <div className="section-list">
           <div
