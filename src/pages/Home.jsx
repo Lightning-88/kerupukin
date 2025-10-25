@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Button from "../components/Button";
 import heroImage from "../assets/hero-image.webp";
 import kerupukOriginal from "../assets/kerupuk-original.jpeg";
 import kerupukPedas from "../assets/kerupuk-pedas.jpeg";
@@ -12,6 +11,7 @@ import {
   FaLayerGroup,
   FaBoxOpen,
 } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -24,7 +24,9 @@ const Home = () => {
             Kerupuk tradisional dengan rasa modern. Cocok buat camilan atau
             teman makan!
           </p>
-          <Button name="Lihat Produk" link="#produk-container" />
+          <a href="#produk-container" className="btn">
+            Lihat Produk
+          </a>
         </div>
         <div
           className="kerupuk-image"
@@ -46,7 +48,9 @@ const Home = () => {
             Kami adalah UMKM yang berdedikasi untuk menghadirkan kerupuk gurih,
             renyah, dan berkualitas tinggi ke seluruh Indonesia.
           </p>
-          <Button name="Baca Selengkapnya" link="/about" />
+          <Link to="/about" className="btn">
+            Baca Selengkapnya
+          </Link>
         </div>
       </section>
 
@@ -197,7 +201,9 @@ const Home = () => {
           data-aos-easing="ease-in-back"
           data-aos-delay="200"
         >
-          <Button name="Lihat Semua Produk" link="/product" />
+          <Link to="/product" className="btn">
+            Lihat Semua Produk
+          </Link>
         </div>
       </section>
 
@@ -212,7 +218,9 @@ const Home = () => {
             Ingin jualan kerupuk dengan untung maksimal? Yuk gabung jadi
             reseller Kerupukin dan nikmati banyak keuntungan!
           </p>
-          <Button name="Lihat Info Reseller" link="/reseller" />
+          <Link to="/reseller" className="btn">
+            Lihat Info Reseller
+          </Link>
         </div>
       </section>
 
