@@ -5,6 +5,13 @@ import heroImage from "../assets/hero-image.webp";
 import kerupukOriginal from "../assets/kerupuk-original.jpeg";
 import kerupukPedas from "../assets/kerupuk-pedas.jpeg";
 import kerupukKeju from "../assets/kerupuk-keju.jpeg";
+import {
+  FaStar,
+  FaShieldHalved,
+  FaTags,
+  FaLayerGroup,
+  FaBoxOpen,
+} from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -59,7 +66,13 @@ const Home = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="200"
           >
-            {/* <i class="fa-solid fa-star"></i> */}
+            <FaStar
+              style={{
+                width: "1.5rem",
+                height: "1.5rem",
+                fill: "#f4c542",
+              }}
+            />
             <h3>Gurih & Renyah</h3>
             <p>
               Tekstur renyah dan rasa gurih yang bikin nagih di setiap gigitan.
@@ -71,7 +84,13 @@ const Home = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="200"
           >
-            {/* <i class="fa-solid fa-shield-halved"></i> */}
+            <FaShieldHalved
+              style={{
+                width: "1.5rem",
+                height: "1.5rem",
+                fill: "#f4c542",
+              }}
+            />
             <h3>Tanpa Pengawet</h3>
             <p>Dibuat dari bahan alami tanpa tambahan bahan kimia berbahaya.</p>
           </div>
@@ -81,7 +100,13 @@ const Home = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="200"
           >
-            {/* <i class="fa-solid fa-tags"></i> */}
+            <FaTags
+              style={{
+                width: "1.5rem",
+                height: "1.5rem",
+                fill: "#f4c542",
+              }}
+            />
             <h3>Harga Terjangkau</h3>
             <p>
               Harga bersahabat di kantong, tetep menghadirkan kualitas tetap
@@ -94,7 +119,13 @@ const Home = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="200"
           >
-            {/* <i class="fa-solid fa-layer-group"></i> */}
+            <FaLayerGroup
+              style={{
+                width: "1.5rem",
+                height: "1.5rem",
+                fill: "#f4c542",
+              }}
+            />
             <h3>Banyak Varian</h3>
             <p>Tersedia berbagai rasa: original, balado, pedas, dan lainnya.</p>
           </div>
@@ -104,7 +135,13 @@ const Home = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="200"
           >
-            {/* <i class="fa-solid fa-box-open"></i> */}
+            <FaBoxOpen
+              style={{
+                width: "1.5rem",
+                height: "1.5rem",
+                fill: "#f4c542",
+              }}
+            />
             <h3>Kemasan Praktis</h3>
             <p>
               Mudah dibawa ke mana saja, cocok untuk camilan saat bepergian.

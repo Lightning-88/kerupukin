@@ -16,17 +16,35 @@ const Reseller = () => {
         </div>
         <div className="reseller-benefit">
           <div className="benefit-card">
-            <FaTags />
+            <FaTags
+              style={{
+                width: "1.5rem",
+                height: "1.5rem",
+                fill: "#f4c542",
+              }}
+            />
             <h1>Harga Khusus</h1>
             <p>Dapatkan harga reseller spesial untuk keuntungan maksimal.</p>
           </div>
           <div className="benefit-card">
-            <FaHandshake />
+            <FaHandshake
+              style={{
+                width: "1.5rem",
+                height: "1.5rem",
+                fill: "#f4c542",
+              }}
+            />
             <h1>Dibimbing Langsung</h1>
             <p>Kami bantu dari awal sampai jualan lancar.</p>
           </div>
           <div className="benefit-card">
-            <FaChartLine />
+            <FaChartLine
+              style={{
+                width: "1.5rem",
+                height: "1.5rem",
+                fill: "#f4c542",
+              }}
+            />
             <h1>Potensi Cuan Besar</h1>
             <p>Produk kami laris dan disukai semua kalangan!</p>
           </div>
